@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Dmitri Mendeleev"
-tags: tag2
+tags: B
 ---
 <br>
 <center><img width="200" alt="Math" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DIMendeleevCab.jpg/1024px-DIMendeleevCab.jpg"></center>

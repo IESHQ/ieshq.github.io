@@ -20,10 +20,10 @@
 <loc>https://mathco.me/</loc>
 </url>
 <url>
-<loc>https://mathco.me/meco/</loc>
+<loc>https://mathco.me/me/</loc>
 </url>
 <url>
-<loc>https://mathco.me/me/</loc>
+<loc>https://mathco.me/meco/</loc>
 </url>
 <url>
 <loc>https://mathco.me/tag/tag1/</loc>
@@ -36,5 +36,11 @@
 </url>
 <url>
 <loc>https://mathco.me/tag/tag4/</loc>
+</url>
+<url>
+<loc>https://mathco.me/tag/a/</loc>
+</url>
+<url>
+<loc>https://mathco.me/tag/b/</loc>
 </url>
 </urlset>

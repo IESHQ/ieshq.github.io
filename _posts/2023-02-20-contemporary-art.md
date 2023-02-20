@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "modern art"
-tags: tag1
+tags: A
 ---
 
 # contemporary art - minimalist phenomenon

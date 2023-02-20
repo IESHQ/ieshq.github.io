@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "good and evil"
-tags: tag1
+tags: A
 ---
 
 # de Finibus Bonorum et Malorum
