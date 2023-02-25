@@ -1,77 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
-    
-        <title>mathC0.</title>
-		<link rel="stylesheet" type="text/css" href="/assets/css/001.css">
-    
-	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
-	<script src="/assets/js/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-</head>
-<body>
-	<div class="wrapper">
-		<div class="default_title">
-			<img src="/assets/img/mycomputer.png" />
-			
-				<h1>mathC0.</h1>
-			
-		</div>
-		<ul class="topbar">
-	<a href="/me"><li><u>A</u>bout</li></a>
-	<a href="/meco"><li><u>L</u>ittera</li></a>
+---
+layout: default
+---
+<ul>
+	{% for post in site.posts %}
+	<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+	{% endfor %}
 </ul>
-		<div class="tag_list">
-			<ul id="tag-list">
-				<li><a href="/" ><img src="/assets/img/disk.png" />(C:)</a>
-			<ul>
-				
-				
-				<li><a href="/tag/a/" title="A"><img src="/assets/img/folder.ico" />A</a></li>
-				
-				<li><a href="/tag/b/" title="B"><img src="/assets/img/folder.ico" />B</a></li>
-				
-			</ul>
-				</li>
-			</ul>
-		</div>
-		<div class="post_list">
-			
-				
-					<ul>
-	
-	<li><a href="/20230222/urban-heat-island" title="urban"><img src="/assets/img/file.ico" title="urban" />urban</a></li>
-	
-	<li><a href="/20230220/contemporary-art" title="modern art"><img src="/assets/img/file.ico" title="modern art" />modern art</a></li>
-	
-	<li><a href="/20230219/dmitri-mendeleev" title="Dmitri Mendeleev"><img src="/assets/img/file.ico" title="Dmitri Mendeleev" />Dmitri Mendeleev</a></li>
-	
-	<li><a href="/20230117/stm" title="atom observing"><img src="/assets/img/file.ico" title="atom observing" />atom observing</a></li>
-	
-	<li><a href="/19650615/lorem-ipsum" title="good and evil"><img src="/assets/img/file.ico" title="good and evil" />good and evil</a></li>
-	
-</ul>
-				
-			
-		</div>
-		<div class="post_total">
-			
-				<div class="left">5 object(s)</div>
-			
-			<div class="right">&nbsp;</div>
-		</div>
-	</div>
-	
-	<script src="/assets/js/001.js"></script>
-	<script src="/assets/js/002.js"></script>
-	<div class="footer">
-		<p>mathC0 intelligence Network, for Math | <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank">Legal</a></p>
-	</div>
-</body>
-</html>
